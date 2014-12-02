@@ -31,16 +31,16 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+     repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
 
 Copy local_manifests.xml in .repo/local_manifests
 
 Then to sync up:
 
-    repo sync
+     repo sync
     
 Then:    
     
-. build/envsetup.sh
+     . build/envsetup.sh
 
-brunch p715
+     brunch p715
