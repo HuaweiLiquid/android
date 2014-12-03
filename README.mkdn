@@ -40,6 +40,8 @@ Then to sync up:
      repo sync
     
 Then:    
+
+      vendor/cm/get-prebuilts
     
      . build/envsetup.sh
 
